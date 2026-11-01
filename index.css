@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-size: 17px;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', 'Noto Sans Armenian', system-ui, -apple-system, sans-serif;
+    color: #0f172a;
+    background-color: #f8fafc;
+    line-height: 1.68;
+    letter-spacing: -0.01em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Specific legibility boost for Armenian characters */
+  :lang(hy), [lang="hy"], .font-armenian {
+    font-family: 'Noto Sans Armenian', system-ui, sans-serif;
+    letter-spacing: 0.01em;
+    line-height: 1.75;
+  }
+
+  /* Font size controls */
+  .font-size-normal {
+    font-size: 16px;
+  }
+  .font-size-large {
+    font-size: 18px;
+  }
+  .font-size-xlarge {
+    font-size: 20px;
+  }
+}
+
+/* Custom interactive translation highlight */
+.trans-target {
+  position: relative;
+  cursor: pointer;
+  border-bottom: 2px dotted rgba(37, 99, 235, 0.6);
+  transition: all 0.15s ease-in-out;
+}
+.trans-target:hover {
+  background-color: rgba(219, 234, 254, 0.8);
+  border-bottom-color: #1d4ed8;
+}

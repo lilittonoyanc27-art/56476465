@@ -1,0 +1,6 @@
+{
+  "name": "Examen de Lengua Castellana y Literatura — 7.º curso (Español & Հայերեն)",
+  "description": "Թեստեր և գործնական վարժություններ 7-րդ դասարանի քննության համար։ Interactive 7th grade Spanish Language & Literature exam preparation with bilingual Armenian explanations, clickable translations, and interactive exercises.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
